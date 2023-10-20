@@ -1,0 +1,68 @@
+*{
+  box-sizing:border-box;
+}
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+main{
+  margin: auto;
+  width: 63%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 95px 90px 135px 90px;
+}
+header{
+  height: 28%;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26%;
+}
+header > h1{
+  text-align: center;
+  color: #0eed0e;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  background-color: #0eed0e;
+  padding: 10px 34% 10px;
+}
+nav > *{
+  margin-right: 3px;
+}
+section{
+  color: #d1d1d1;
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  display: inline-block;
+  color: white;
+}
+.Indirizzo:before{
+  content: "\21A6";
+}
+h3, .Indirizzo{
+  margin-bottom: 3px;
+}
+.Barra{
+  margin-top: 3px;
+  border-radius: 4px;
+  height: 28px;
+}
+.StatoCarica1 > .Barra{
+  width: 35%;
+  background-color: #dfac4e;
+}
+.StatoCarica2 > .Barra{
+  width: 60%;
+  background-color: #25b525;
+}
+.StatoCarica3 > .Barra{
+  width: 15%;
+  background-color: #c24949;
+}
